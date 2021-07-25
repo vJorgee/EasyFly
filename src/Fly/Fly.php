@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener {
 
     public function onDisable() {
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
-        $this->getLogger()->info(TextFormat::RED . "plugib disabled!");
+        $this->getLogger()->info(TextFormat::RED . "plugib disable!");
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
