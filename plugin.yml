@@ -1,10 +1,10 @@
 name: EasyFly
-version: 1.0.0
 main: Fly\Fly
-api: [3.0.0]
+api: 3.0.0
+version: 1.0.0
 author: SoyJorgeh
 
-permissions:
-  fly.use:
-    description: "Enable fly usage"
-    default: op
+commands:
+ fly:
+  description: Enable Fly
+  permission: fly.use
