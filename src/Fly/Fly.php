@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyUI;
+namespace EasyFly;
 
 use pocketmine\Server;
 use pocketmine\Player;
