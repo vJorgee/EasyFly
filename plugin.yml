@@ -7,4 +7,4 @@ author: SoyJorgeh
 commands:
  fly:
   description: Enable Fly
-  permission: fly.use. 
+  permission: fly.use
