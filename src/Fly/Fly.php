@@ -62,7 +62,7 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
             
             });
             $form->setTitle("§l§6FlyUI");
-            $form->setContent("Select an option :)!");
+            $form->setContent("Select an option :D!");
             $form->addButton("§lEnable");
             $form->addButton("§lDisable");
             $form->addButton("§l§cExit");
