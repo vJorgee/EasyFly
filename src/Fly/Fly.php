@@ -26,7 +26,7 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
         switch($cmd->getName()){                    
             case "fly":
-                if ($sender->hasPermission("fly.command")){
+                if ($sender->hasPermission("fly.use")){
                      $this->openMyForm($sender);
                 }else{     
                      $sender->sendMesseage(TextFormat::RED . "You do not have permissions to run this command");
